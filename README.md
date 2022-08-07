@@ -1,6 +1,21 @@
 # CALCULO DE FRETE API
 
 ![calculo-de-frete](https://user-images.githubusercontent.com/101893308/183311868-168b1a5b-b6f1-4214-b024-827f0ea4a09f.png)
+![consulta1](https://user-images.githubusercontent.com/101893308/183312833-818e565f-717d-4ddf-b423-eee73399d44e.png)
+
+## 🌌 Tecnologias:<br/>
+Java 17;<br/><br/>
+Spring boot;<br/>
+JPA;<br/>
+Hibernate;<br/>
+Postgresql e H2 para testes;<br/>
+Json;<br/>
+Lombok;<br/>
+Thymeleaf<br/>
+Devtools;<br/>
+HTML;<br/>
+CSS.<br/>
+
 
 
 ## 🏋️ Ajustes e melhoria:<br/>
@@ -8,6 +23,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 ✓Tratar as Exceptions;<br/>
 ✓Exceptions;<br/>
 ✓junit;<br/>
+✓Bootstrap;<br/>
+✓Figma;<br/>
 ✓Swagger;<br/>
 ✓Deploy na AWS.<br/>
 
