@@ -3,7 +3,7 @@
 ![calculo-de-frete](https://user-images.githubusercontent.com/101893308/183311868-168b1a5b-b6f1-4214-b024-827f0ea4a09f.png)
 
 
-## Ajustes e melhoria:<br/>
+## 🏋️ Ajustes e melhoria:<br/>
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:<br/>
 ✓Tratar as Exceptions;<br/>
 ✓Exceptions;<br/>
