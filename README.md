@@ -4,7 +4,7 @@
 ![consulta1](https://user-images.githubusercontent.com/101893308/183312833-818e565f-717d-4ddf-b423-eee73399d44e.png)
 
 ## 🌌 Tecnologias:<br/>
-Java 17;<br/><br/>
+Java 17;<br/>
 Spring boot;<br/>
 JPA;<br/>
 Hibernate;<br/>
