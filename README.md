@@ -3,24 +3,21 @@
 ![calculo-de-frete](https://user-images.githubusercontent.com/101893308/183311868-168b1a5b-b6f1-4214-b024-827f0ea4a09f.png)
 
 
-Ajustes e melhorias
+Ajustes e melhoria:
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-✓Tratar as Exceptions
-✓Exceptions 
-✓junit
-✓Swagger
-✓Deploy na AWS
+✓Tratar as Exceptions;
+✓Exceptions;
+✓junit;
+✓Swagger;
+✓Deploy na AWS.
 
 
+💻 Pré-requisitos:
 
-💻 Pré-requisitos
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
+Java 17+;
+Intellij.
 
-Java 17+
-Intellij
-
-🚀 Fazendo a api funcionar
-Para instalar, adicione ao seu projeto:
+🚀 Fazendo a api funcionar:
 1.Faça download do projeto em zip clicando no item acima a direita 'code>download zip'. 
 2.Extraia o arquivo em uma pasta.
 3. Abra o intellij, clique em 'file>open project' e selecione a pasta que você extraiu.
