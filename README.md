@@ -33,6 +33,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Java 17+;<br/>
 Intellij.<br/>
+Postgresql.<br/>
 
 ## 🚀 Fazendo a api funcionar:
 1.Faça download do projeto em zip clicando no item acima a direita 'code>download zip'. <br/>
