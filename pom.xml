@@ -80,7 +80,6 @@
 
 	</dependencies>
 	<build>
-	<finalName>simplewebapp</finalName>
 	<plugins>
 		<plugin>
 			<groupId>org.springframework.boot</groupId>
