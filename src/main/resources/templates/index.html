@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="flex-container-header">
+
+        <div class="header-logo-container">
+            <img class="logoHeader" src="arquivos/logo.png" alt="logo">
+        </div>
+        <div class="flex-container-texto-header">
+            <h1>Correios do Brasil</h1>
+            <p class="flex-container-texto-header-1">Desenvolvido por <a href="https://www.linkedin.com/in/nailtonboccanera/"> Nailton Boccanera </a></p>
+        </div>
+    </div>
+    <main>
+        <section id="formSection">
+            <form method="post">
+            <div class="form-container">
+              <div class="form1">
+                  <h2>Cálculo de frete</h2>
+                  <div class="card-itens">
+                      <label>Seu nome</label>
+                      <div class="form-control-container">
+                          <input class="input-control" type="text" name="nome" pattern="[A-Za-z ]{3,60}" title="O nome deve ser maior que 3 digitos e menor que 60. (A-Z)." required>
+                      </div>
+                      <label>Nome do destinatário</label>
+                      <div class="form-control-container">
+                          <input class="input-control" type="text" name="nomeDestinatario" pattern="[A-Za-z ]{3,60}" title="O nome deve ser maior que 3 digitos e menor que 60. (A-Z)." required>
+                      </div>
+
+                      <div class="cep-label">
+                          <label>Cep de Origem &emsp;</label>
+                          <label>Cep de Destino</label>
+                      </div>
+                  <div class="form-control2">
+                      <input class="input-control2" type="text" name="cepOrigem" pattern="{8}" title="O cep deve conter 8 dígitos" required>
+                       &ensp;
+                      <input class="input-control2" type="text" name="cepDestino" pattern="{8}" title="O cep deve conter 8 dígitos" required>
+                  </div>
+                      <div class="medidas-label">
+                          <label>Altura&ensp;Comprimento&ensp;Largura&ensp;Peso</label>
+                      </div>
+                      <div class="form-control3">
+                          <input class="input-control3" type="text" name="altura" pattern="[0-9]{1,4}" title="Insira apenas números, máximo de 4 dígitos." required>
+                          &ensp;
+                          <input class="input-control3" type="text" name="comprimento" pattern="[0-9]{1,4}" title="Insira apenas números, máximo de 4 dígitos." required>
+                          &ensp;
+                          <input class="input-control3" type="text" name="largura" pattern="[0-9]{1,4}" title="Insira apenas números, máximo de 4 dígitos." required>
+                          &ensp;
+                          <input class="input-control3" type="text" name="peso" pattern="[0-9]{1,4}" title="Insira apenas números, máximo de 4 dígitos." required>
+                      </div>
+                  </div>
+                      <button class="button-control" type="submit">Calcular</button>
+                  </div>
+                <label>*medidas em cm e kg.</label>
+              </div>
+            </form>
+        </section>
+
+
+    </main>
+
+</header>
+</body>
+<footer>
+    <div class="container footer">
+        <div class="footer-styles">
+            <a href="https://www.linkedin.com/in/nailtonboccanera/"> <img class="icons-footer" src="/arquivos/linkedin icon.png"> </a>
+            <a href="https://github.com/boccanera"> <img class="icons-footer" src="/arquivos/github.png"> </a>
+            <a href="https://www.youtube.com/channel/UCk8mlSDtek-gkbzesr8IbCA"> <img class="icons-footer" src="/arquivos/youtube.png"> </a>
+            <a href="mailto:nailtonboccanera@gmail.com"> <img class="icons-footer"src="/arquivos/gmail.png"> </a>
+        </div>
+    </div>
+
+</footer>
+</html>

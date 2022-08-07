@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles.css">
+
+    <header>
+        <div class="flex-container-header">
+            <div class="header-logo-container">
+                <img class="logoHeader" src="/arquivos/logo.png" alt="logo">
+            </div>
+            <div class="flex-container-texto-header">
+                <h1>Correios do Brasil</h1>
+                <p class="flex-container-texto-header-1">Desenvolvido por <a href="https://www.linkedin.com/in/nailtonboccanera/"> Nailton Boccanera </a></p>
+            </div>
+        </div>
+    </header>
+</head>
+<body>
+<section id="formSection">
+    <div>
+        <div class="form-container">
+            <div class="form1">
+                <h2 id="resultadoDaConsultaH2">Resultado da Consulta</h2>
+<div th:each="encomenda : ${encomenda}" class="container detalhesEvento">
+
+    <div class="row">
+
+        <p>Nome: <span th:text="${encomenda.nome}"></span></p>
+        <p>Nome do Destinatário: <span th:text="${encomenda.nomeDestinatario}"></span></p>
+        <p>Cep de origem: <span th:text="${encomenda.cepOrigem}"></span></p>
+        <p>Cep de destino: <span th:text="${encomenda.cepDestino}"></span></p>
+    </div>
+</div>
+                <div th:each="dias : ${encomenda1}" class="container detalhesEvento2">
+                <p>Chega em <span th:text="${dias}"></span>&nbsp;dias</p>
+                </div>
+                <div th:each="valorFrete : ${encomenda2}" class="container detalhesEvento3">
+                <p>Valor do frete: R$ <span th:text="${valorFrete}"></span></p>
+            </div>
+                <a class="button-control-voltar" href="http://localhost:8080/">
+                    <button class="button-control" type="submit">Voltar</button>
+                </a>
+        </div>
+        </div>
+        </div>
+        </div>
+</section>
+</body>
+</html>

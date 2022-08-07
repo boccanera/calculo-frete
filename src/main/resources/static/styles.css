@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*{
+font-family: 'montserrat', sans-serif;
+box-sizing: border-box;
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body { min-height: 100vh;
+ background: linear-gradient(60deg, #fdcd3b 20%, #ffed4b 40%);
+ }
+
+a, a:hover, a:visited{
+color: unset;
+text-decoration:none;
+}
+
+header{
+
+min-height: 5vh;
+}
+
+.logoHeader{
+width: 80px;
+height: 80px;
+}
+
+.flex-container-header{
+flex-wrap: wrap;
+display: flex;
+padding: 20px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 180px;
+min-height: 100px;
+}
+
+.flex-container-texto-header{
+padding: 10px;
+font-size: 20px;
+}
+
+.form1{
+background-color: #FFFFFF;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+padding: 30px;
+}
+
+.form-container{
+width: 100%;
+max-width: 500px;
+margin: 0 auto; /* macete pra centralizar div */
+}
+
+#formSection{
+padding: 40px 10px;
+align-items: center;
+}
+
+.card-itens{
+padding: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.input-control{
+height: 40px;
+width: 300px;
+font-size: 16px;
+padding: 10px;
+border-radius: 5px;
+}
+
+.form-control-container{
+margin-bottom: 14px;
+}
+
+.button-control{
+  border-color: #000000;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.button-control:hover{
+box-shadow: 0px 0px 5px grey;
+cursor: pointer;}
+
+label {
+ display: inline-block;
+ margin-bottom: 5px;
+}
+
+.input-control{
+height: 40px;
+width: 300px;
+font-size: 16px;
+padding: 10px;
+border-radius: 5px;
+}
+
+.form-control2{
+display: flex;
+flex-direction: row;
+}
+
+.cep-label{
+display: flex;
+flex-direction: row;
+text-align: left;
+}
+
+.input-control2{
+height: 40px;
+width: 150px;
+font-size: 16px;
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 14px;
+}
+
+.medidas-label{
+display: flex;
+flex-direction: row;
+text-align: center;
+}
+
+.form-control3{
+display: flex;
+flex-direction: row;
+}
+
+.input-control3{
+height: 40px;
+width: 72px;
+font-size: 16px;
+padding: 8px;
+border-radius: 5px;
+}
+
+.row{
+padding: 10px;
+margin-bottom: 10px;
+}
+
+#resultadoDaConsultaH2{
+margin-bottom: 15px;
+}
+
+.detalhesEvento3{
+margin-bottom: 25px;
+}
+
+.footer{
+display: flex;
+flex-wrap: wrap;
+display: flex;
+padding: 20px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+min-height: 70px;
+}
+
+.footer-styles{
+background-color: #FFFFFF;
+flex-direction: row;
+border-radius: 10px;
+padding: 30px;
+}
+
+.icons-footer{
+width: 40px;
+height: 40px;
+}
+
