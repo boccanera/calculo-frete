@@ -6,6 +6,7 @@ import com.example.demo.model.Cep;
 import com.example.demo.model.Encomenda;
 import com.example.demo.repository.EncomendaRepository;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,10 +17,11 @@ import java.text.DecimalFormat;
 import java.util.Optional;
 
 @Controller
-@AllArgsConstructor
+
 public class encomendaController {
 
 
+    @Autowired
     private EncomendaRepository er;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
