@@ -16,7 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 import java.text.DecimalFormat;
 import java.util.Optional;
 
-@RestController
+@Controller
 @AllArgsConstructor
 public class encomendaController {
 
