@@ -24,7 +24,7 @@ public class MainConfig {
         dataSource.setPassword("e54c7de3ede02829663a63a082a296c4ecc33f705ec25cb132f09b69b42224c4");
         return dataSource;
     }
-
+    {}
     @Bean
     public JpaVendorAdapter jpaVendorAdapter(){
         HibernateJpaVendorAdapter adapter = new HibernateJpaVendorAdapter();
