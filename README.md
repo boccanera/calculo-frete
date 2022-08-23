@@ -59,5 +59,6 @@ Envie para o branch original: git push origin <nome_do_projeto> / <local><br/>
 Crie a solicitação de pull.<br/>
 Como alternativa, consulte a documentação do GitHub em como criar uma solicitação pull.<br/>
   
-📜 Nota de agradecimento:
+  
+## 📜 Nota de agradecimento:
 Gostaria de agradecer ao [Kennedy Lucas](https://www.linkedin.com/in/kennedylucas/), pessoa de um coração gigante que me ajudou com um bug do Spring MVC no deploy.
