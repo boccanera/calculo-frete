@@ -11,14 +11,7 @@ Spring boot;<br/>
 JPA;<br/>
 Hibernate;<br/>
 Postgresql e H2 para testes;<br/>
-Json;<br/>
-Lombok;<br/>
 Thymeleaf<br/>
-Devtools;<br/>
-HTML;<br/>
-CSS.<br/>
-
-
 
 ## 🏋️ Ajustes e melhoria:<br/>
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:<br/>
